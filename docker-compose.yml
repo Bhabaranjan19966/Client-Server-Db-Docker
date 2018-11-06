@@ -4,7 +4,7 @@ services:
     container_name: front_end
     build: ./client/.
     ports:
-      - 3002:3000
+      - ${EPORTS}:3000
     links:
       - app
     depends_on:
