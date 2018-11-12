@@ -6,11 +6,14 @@ app.use(bodyParser.urlencoded({ extended: false }));
 const passport = require('passport');
 const port = process.env.PORT || 5000;
 const { spawn } = require('child_process');
+const path = require('path');
 app.use(passport.initialize());
 app.use(passport.session());
 
+app.use(express.static(path.join(__dirname, './build')));
+// app.use(express.static(path.join(__dirname, '/static')));
 const server = app.listen(port, () => {
-    console.log(`listening on port ${port}`);
+    console.log(`listening on port ${process.env.HPORT}`);
 });
 
 app.get("/auth", passport.authenticate('gitlab'));
@@ -18,7 +21,7 @@ app.get("/auth", passport.authenticate('gitlab'));
 app.get("/auth/gitlab", passport.authenticate('gitlab'), (req, res) => {
     console.log("now reached here",req)
     const authCode = req.query.code;
-    res.redirect("http://localhost:3000/newApp?token="+authCode);
+    res.redirect(`/#/newApp?token=`+authCode);
 })
 
 app.post("/deploy", (req, res) => {

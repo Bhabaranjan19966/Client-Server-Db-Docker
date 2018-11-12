@@ -1,24 +1,14 @@
 version: '3'
 services:
-  client:
-    container_name: front_end
-    build: ./client/.
-    ports:
-      - ${EPORTS}:3000
-    links:
-      - app
-    depends_on:
-        - app
-        - mongo
-  
-  
   app:
     container_name: backend
     build: ./server/.
-    ports:
-      - 5002:5000
+    environment:
+      - HPORT=5002
     links:
       - mongo
+    ports:
+      - 5002:5000  
     depends_on:
       - mongo
   
@@ -28,5 +18,4 @@ services:
     image: mongo
     ports:
       - 27012:27017
-
 

@@ -1,15 +1,15 @@
 /*eslint react/jsx-filename-extension: 0 */
 
 import React from 'react';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import { Route, Switch} from 'react-router-dom';
 import App from '../App';
 import ListUrlComponent from '../components/ListUrlComponent';
 import AddGitURL from '../components/AddGitURL';
 import HomePageComponent from '../components/HomePageComponent';
-
+import { HashRouter } from 'react-router-dom'
 
 function AppRouter () {
-   return ( <BrowserRouter>
+   return ( <HashRouter>
     <div>
         <Route  path='/' component={App} exact={true} />
         <Switch>
@@ -18,6 +18,6 @@ function AppRouter () {
             <Route  path='/newApp'  component={AddGitURL} />
         </Switch>
     </div>
-    </BrowserRouter>)
+    </HashRouter>)
 }
 export default AppRouter;

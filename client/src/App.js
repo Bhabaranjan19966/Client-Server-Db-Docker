@@ -19,13 +19,16 @@ class App extends Component {
       .then(res => { return res.json() })
       .then(res => console.log(res))
   }
-
+  env={
+    HPORT:5002,
+  }
   render() {
+    
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <a className="App-link" id="loginButton" href="http://localhost:5000/auth"> Connect to Gitlab </a>
+          <a className="App-link" id="loginButton" href={`/auth`}> Connect to Gitlab </a>
           {/* <button onClick={this.test}> test </button> */}
         </header>
       </div>

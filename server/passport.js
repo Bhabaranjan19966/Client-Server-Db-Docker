@@ -13,7 +13,7 @@ passport.deserializeUser((profile, done) => {
 passport.use(new GitlabStrategy({
     clientID: keys.googleKeys.clientID,
     clientSecret: keys.googleKeys.clientSecret,
-    callbackURL: "http://localhost:5000/auth/gitlab"
+    callbackURL: `http://localhost:${process.env.HPORT}/auth/gitlab`
 },
     function (token, tokenSecret, profile, done) {
     

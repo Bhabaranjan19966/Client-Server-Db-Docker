@@ -1,0 +1,158 @@
+Attaching to front_end, backend, database
+[36mfront_end |[0m 
+[32mdatabase  |[0m 2018-11-06T11:23:12.876+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+[33mbackend   |[0m 
+[36mfront_end |[0m > client@0.1.0 start /usr/src/app
+[32mdatabase  |[0m 2018-11-06T11:23:12.881+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=fb47673a02b7
+[33mbackend   |[0m > test@1.0.0 start /usr/src/app
+[36mfront_end |[0m > react-scripts start
+[32mdatabase  |[0m 2018-11-06T11:23:12.881+0000 I CONTROL  [initandlisten] db version v4.0.3
+[33mbackend   |[0m > node server.js
+[36mfront_end |[0m 
+[32mdatabase  |[0m 2018-11-06T11:23:12.881+0000 I CONTROL  [initandlisten] git version: 7ea530946fa7880364d88c8d8b6026bbc9ffa48c
+[33mbackend   |[0m 
+[36mfront_end |[0m Starting the development server...
+[32mdatabase  |[0m 2018-11-06T11:23:12.881+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+[33mbackend   |[0m listening on port 5000
+[36mfront_end |[0m 
+[32mdatabase  |[0m 2018-11-06T11:23:12.881+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+[33mbackend   |[0m 
+[36mfront_end |[0m 
+[32mdatabase  |[0m 2018-11-06T11:23:12.881+0000 I CONTROL  [initandlisten] modules: none
+[33mbackend   |[0m > test@1.0.0 start /usr/src/app
+[36mfront_end |[0m > client@0.1.0 start /usr/src/app
+[32mdatabase  |[0m 2018-11-06T11:23:12.881+0000 I CONTROL  [initandlisten] build environment:
+[33mbackend   |[0m > node server.js
+[36mfront_end |[0m > react-scripts start
+[32mdatabase  |[0m 2018-11-06T11:23:12.881+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+[33mbackend   |[0m 
+[36mfront_end |[0m 
+[32mdatabase  |[0m 2018-11-06T11:23:12.881+0000 I CONTROL  [initandlisten]     distarch: x86_64
+[33mbackend   |[0m listening on port 5000
+[36mfront_end |[0m Starting the development server...
+[32mdatabase  |[0m 2018-11-06T11:23:12.881+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+[33mbackend   |[0m 
+[36mfront_end |[0m 
+[32mdatabase  |[0m 2018-11-06T11:23:12.881+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+[36mfront_end |[0m 
+[32mdatabase  |[0m 2018-11-06T11:23:12.882+0000 I STORAGE  [initandlisten] 
+[33mbackend   |[0m > test@1.0.0 start /usr/src/app
+[36mfront_end |[0m > client@0.1.0 start /usr/src/app
+[32mdatabase  |[0m 2018-11-06T11:23:12.882+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+[33mbackend   |[0m > node server.js
+[36mfront_end |[0m > react-scripts start
+[32mdatabase  |[0m 2018-11-06T11:23:12.882+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+[33mbackend   |[0m 
+[36mfront_end |[0m 
+[32mdatabase  |[0m 2018-11-06T11:23:12.882+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7438M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+[33mbackend   |[0m listening on port 5000
+[36mfront_end |[0m Starting the development server...
+[32mdatabase  |[0m 2018-11-06T11:23:13.377+0000 I STORAGE  [initandlisten] WiredTiger message [1541503393:377484][1:0x7f3c33375a00], txn-recover: Set global recovery timestamp: 0
+[36mfront_end |[0m 
+[32mdatabase  |[0m 2018-11-06T11:23:13.477+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+[36mfront_end |[0m Compiled successfully!
+[32mdatabase  |[0m 2018-11-06T11:23:13.547+0000 I CONTROL  [initandlisten] 
+[36mfront_end |[0m 
+[32mdatabase  |[0m 2018-11-06T11:23:13.547+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+[36mfront_end |[0m You can now view client in the browser.
+[32mdatabase  |[0m 2018-11-06T11:23:13.547+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+[36mfront_end |[0m 
+[32mdatabase  |[0m 2018-11-06T11:23:13.547+0000 I CONTROL  [initandlisten] 
+[36mfront_end |[0m   Local:            http://localhost:3000/
+[32mdatabase  |[0m 2018-11-06T11:23:13.547+0000 W CONTROL  [initandlisten] 
+[36mfront_end |[0m   On Your Network:  http://172.18.0.4:3000/
+[32mdatabase  |[0m 2018-11-06T11:23:13.547+0000 W CONTROL  [initandlisten] 
+[36mfront_end |[0m 
+[32mdatabase  |[0m 2018-11-06T11:23:13.547+0000 I CONTROL  [initandlisten] 
+[36mfront_end |[0m Note that the development build is not optimized.
+[32mdatabase  |[0m 2018-11-06T11:23:13.548+0000 I STORAGE  [initandlisten] createCollection: admin.system.version with provided UUID: e9b8f8d2-4b3a-4134-80d8-c07e0f9da49a
+[36mfront_end |[0m To create a production build, use npm run build.
+[32mdatabase  |[0m 2018-11-06T11:23:13.613+0000 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 4.0
+[36mfront_end |[0m 
+[32mdatabase  |[0m 2018-11-06T11:23:13.617+0000 I STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: 6856b9b6-2b8d-4664-8139-24fc4793b6d6
+[32mdatabase  |[0m 2018-11-06T11:23:13.712+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+[32mdatabase  |[0m 2018-11-06T11:23:13.715+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+[32mdatabase  |[0m 2018-11-06T11:23:13.715+0000 I STORAGE  [LogicalSessionCacheRefresh] createCollection: config.system.sessions with generated UUID: 7df549ac-4c40-453a-9641-aadc1c07f5be
+[32mdatabase  |[0m 2018-11-06T11:23:13.769+0000 I INDEX    [LogicalSessionCacheRefresh] build index on: config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 }
+[32mdatabase  |[0m 2018-11-06T11:23:13.769+0000 I INDEX    [LogicalSessionCacheRefresh] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+[32mdatabase  |[0m 2018-11-06T11:23:13.769+0000 I INDEX    [LogicalSessionCacheRefresh] build index done.  scanned 0 total records. 0 secs
+[32mdatabase  |[0m 2018-11-06T11:23:21.825+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+[32mdatabase  |[0m 2018-11-06T11:23:21.826+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+[32mdatabase  |[0m 2018-11-06T11:23:21.826+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+[32mdatabase  |[0m 2018-11-06T11:23:21.826+0000 I CONTROL  [signalProcessingThread] Shutting down free monitoring
+[32mdatabase  |[0m 2018-11-06T11:23:21.827+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+[32mdatabase  |[0m 2018-11-06T11:23:21.832+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+[32mdatabase  |[0m 2018-11-06T11:23:22.009+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+[32mdatabase  |[0m 2018-11-06T11:23:22.009+0000 I CONTROL  [signalProcessingThread] now exiting
+[32mdatabase  |[0m 2018-11-06T11:23:22.009+0000 I CONTROL  [signalProcessingThread] shutting down with code:0
+[32mdatabase  |[0m 2018-11-06T11:24:00.965+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+[32mdatabase  |[0m 2018-11-06T11:24:00.969+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=fb47673a02b7
+[32mdatabase  |[0m 2018-11-06T11:24:00.969+0000 I CONTROL  [initandlisten] db version v4.0.3
+[32mdatabase  |[0m 2018-11-06T11:24:00.969+0000 I CONTROL  [initandlisten] git version: 7ea530946fa7880364d88c8d8b6026bbc9ffa48c
+[32mdatabase  |[0m 2018-11-06T11:24:00.969+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+[32mdatabase  |[0m 2018-11-06T11:24:00.969+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+[32mdatabase  |[0m 2018-11-06T11:24:00.969+0000 I CONTROL  [initandlisten] modules: none
+[32mdatabase  |[0m 2018-11-06T11:24:00.969+0000 I CONTROL  [initandlisten] build environment:
+[32mdatabase  |[0m 2018-11-06T11:24:00.969+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+[32mdatabase  |[0m 2018-11-06T11:24:00.969+0000 I CONTROL  [initandlisten]     distarch: x86_64
+[32mdatabase  |[0m 2018-11-06T11:24:00.969+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+[32mdatabase  |[0m 2018-11-06T11:24:00.969+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+[32mdatabase  |[0m 2018-11-06T11:24:00.969+0000 I STORAGE  [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+[32mdatabase  |[0m 2018-11-06T11:24:00.969+0000 I STORAGE  [initandlisten] 
+[32mdatabase  |[0m 2018-11-06T11:24:00.969+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+[32mdatabase  |[0m 2018-11-06T11:24:00.969+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+[32mdatabase  |[0m 2018-11-06T11:24:00.969+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7438M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+[32mdatabase  |[0m 2018-11-06T11:24:01.495+0000 I STORAGE  [initandlisten] WiredTiger message [1541503441:495598][1:0x7fda17b65a00], txn-recover: Main recovery loop: starting at 1/21888
+[32mdatabase  |[0m 2018-11-06T11:24:01.568+0000 I STORAGE  [initandlisten] WiredTiger message [1541503441:568310][1:0x7fda17b65a00], txn-recover: Recovering log 1 through 2
+[32mdatabase  |[0m 2018-11-06T11:24:01.619+0000 I STORAGE  [initandlisten] WiredTiger message [1541503441:619504][1:0x7fda17b65a00], txn-recover: Recovering log 2 through 2
+[32mdatabase  |[0m 2018-11-06T11:24:01.655+0000 I STORAGE  [initandlisten] WiredTiger message [1541503441:655789][1:0x7fda17b65a00], txn-recover: Set global recovery timestamp: 0
+[32mdatabase  |[0m 2018-11-06T11:24:01.748+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+[32mdatabase  |[0m 2018-11-06T11:24:01.779+0000 I CONTROL  [initandlisten] 
+[32mdatabase  |[0m 2018-11-06T11:24:01.779+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+[32mdatabase  |[0m 2018-11-06T11:24:01.779+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+[32mdatabase  |[0m 2018-11-06T11:24:01.779+0000 I CONTROL  [initandlisten] 
+[32mdatabase  |[0m 2018-11-06T11:24:01.779+0000 W CONTROL  [initandlisten] 
+[32mdatabase  |[0m 2018-11-06T11:24:01.780+0000 W CONTROL  [initandlisten] 
+[32mdatabase  |[0m 2018-11-06T11:24:01.780+0000 I CONTROL  [initandlisten] 
+[32mdatabase  |[0m 2018-11-06T11:24:01.818+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+[32mdatabase  |[0m 2018-11-06T11:24:01.820+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+[32mdatabase  |[0m 2018-11-06T11:24:06.593+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+[32mdatabase  |[0m 2018-11-06T11:24:06.593+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+[32mdatabase  |[0m 2018-11-06T11:24:06.593+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+[32mdatabase  |[0m 2018-11-06T11:24:06.594+0000 I CONTROL  [signalProcessingThread] Shutting down free monitoring
+[32mdatabase  |[0m 2018-11-06T11:24:06.594+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+[32mdatabase  |[0m 2018-11-06T11:24:06.595+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+[32mdatabase  |[0m 2018-11-06T11:24:06.889+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+[32mdatabase  |[0m 2018-11-06T11:24:06.889+0000 I CONTROL  [signalProcessingThread] now exiting
+[32mdatabase  |[0m 2018-11-06T11:24:06.889+0000 I CONTROL  [signalProcessingThread] shutting down with code:0
+[32mdatabase  |[0m 2018-11-06T11:24:12.817+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+[32mdatabase  |[0m 2018-11-06T11:24:12.824+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=fb47673a02b7
+[32mdatabase  |[0m 2018-11-06T11:24:12.825+0000 I CONTROL  [initandlisten] db version v4.0.3
+[32mdatabase  |[0m 2018-11-06T11:24:12.825+0000 I CONTROL  [initandlisten] git version: 7ea530946fa7880364d88c8d8b6026bbc9ffa48c
+[32mdatabase  |[0m 2018-11-06T11:24:12.825+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+[32mdatabase  |[0m 2018-11-06T11:24:12.825+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+[32mdatabase  |[0m 2018-11-06T11:24:12.825+0000 I CONTROL  [initandlisten] modules: none
+[32mdatabase  |[0m 2018-11-06T11:24:12.825+0000 I CONTROL  [initandlisten] build environment:
+[32mdatabase  |[0m 2018-11-06T11:24:12.825+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+[32mdatabase  |[0m 2018-11-06T11:24:12.825+0000 I CONTROL  [initandlisten]     distarch: x86_64
+[32mdatabase  |[0m 2018-11-06T11:24:12.825+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+[32mdatabase  |[0m 2018-11-06T11:24:12.825+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+[32mdatabase  |[0m 2018-11-06T11:24:12.825+0000 I STORAGE  [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+[32mdatabase  |[0m 2018-11-06T11:24:12.825+0000 I STORAGE  [initandlisten] 
+[32mdatabase  |[0m 2018-11-06T11:24:12.825+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+[32mdatabase  |[0m 2018-11-06T11:24:12.825+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+[32mdatabase  |[0m 2018-11-06T11:24:12.825+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7438M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+[32mdatabase  |[0m 2018-11-06T11:24:13.379+0000 I STORAGE  [initandlisten] WiredTiger message [1541503453:379481][1:0x7fb7e3cd5a00], txn-recover: Main recovery loop: starting at 2/5888
+[32mdatabase  |[0m 2018-11-06T11:24:13.458+0000 I STORAGE  [initandlisten] WiredTiger message [1541503453:458492][1:0x7fb7e3cd5a00], txn-recover: Recovering log 2 through 3
+[32mdatabase  |[0m 2018-11-06T11:24:13.519+0000 I STORAGE  [initandlisten] WiredTiger message [1541503453:519248][1:0x7fb7e3cd5a00], txn-recover: Recovering log 3 through 3
+[32mdatabase  |[0m 2018-11-06T11:24:13.559+0000 I STORAGE  [initandlisten] WiredTiger message [1541503453:559624][1:0x7fb7e3cd5a00], txn-recover: Set global recovery timestamp: 0
+[32mdatabase  |[0m 2018-11-06T11:24:13.604+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+[32mdatabase  |[0m 2018-11-06T11:24:13.619+0000 I CONTROL  [initandlisten] 
+[32mdatabase  |[0m 2018-11-06T11:24:13.619+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+[32mdatabase  |[0m 2018-11-06T11:24:13.619+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+[32mdatabase  |[0m 2018-11-06T11:24:13.619+0000 I CONTROL  [initandlisten] 
+[32mdatabase  |[0m 2018-11-06T11:24:13.619+0000 W CONTROL  [initandlisten] 
+[32mdatabase  |[0m 2018-11-06T11:24:13.619+0000 W CONTROL  [initandlisten] 
+[32mdatabase  |[0m 2018-11-06T11:24:13.619+0000 I CONTROL  [initandlisten] 
+[32mdatabase  |[0m 2018-11-06T11:24:13.639+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+[32mdatabase  |[0m 2018-11-06T11:24:13.640+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
