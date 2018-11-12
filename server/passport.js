@@ -1,3 +1,4 @@
+const env = require('./dev-config');
 const passport = require('passport');
 var GitlabStrategy = require('passport-gitlab2').Strategy;
 const keys = require('./config/keys')
@@ -13,7 +14,7 @@ passport.deserializeUser((profile, done) => {
 passport.use(new GitlabStrategy({
     clientID: keys.googleKeys.clientID,
     clientSecret: keys.googleKeys.clientSecret,
-    callbackURL: `http://localhost:${process.env.HPORT}/auth/gitlab`
+    callbackURL: `http://localhost:${env.HPORT}/auth/gitlab`
 },
     function (token, tokenSecret, profile, done) {
     

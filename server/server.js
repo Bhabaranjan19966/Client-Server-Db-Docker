@@ -1,3 +1,4 @@
+const env = require("./dev-config");
 const express = require('express');
 const app = express();
 const passportSetup = require('./passport');
@@ -13,7 +14,7 @@ app.use(passport.session());
 app.use(express.static(path.join(__dirname, './build')));
 // app.use(express.static(path.join(__dirname, '/static')));
 const server = app.listen(port, () => {
-    console.log(`listening on port ${process.env.HPORT}`);
+    console.log(`listening on port ${env.HPORT}`);
 });
 
 app.get("/auth", passport.authenticate('gitlab'));

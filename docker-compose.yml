@@ -3,8 +3,8 @@ services:
   app:
     container_name: backend
     build: ./server/.
-    environment:
-      - HPORT=5002
+    env_file:
+      - ./variables.env
     links:
       - mongo
     ports:
