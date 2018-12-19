@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    container_name: backend110
+    container_name: backend70
     build: ./server/.
     env_file:
       - ./variables.env
@@ -14,7 +14,7 @@ services:
   
   
   mongo:
-    container_name: database119
+    container_name: database70
     image: mongo
     ports:
       - 27020:27017
