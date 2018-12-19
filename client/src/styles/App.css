@@ -3,6 +3,7 @@
 }
 
 .App-header {
+  background-image: url('https://backgroundcheckall.com/wp-content/uploads/2017/12/login-background-images-for-project-2.jpg');
   min-height: 100vh;
   display: flex;
   flex-direction: column;
