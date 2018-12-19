@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    container_name: backend10
+    container_name: backend110
     build: ./server/.
     env_file:
       - ./variables.env
