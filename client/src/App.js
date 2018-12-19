@@ -27,7 +27,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <a className="App-link" id="loginButton" href={`/auth`}> Connect to Gitlab </a>
+          <a className="App-link" id="loginButton" href={`/auth`}> Connect </a>
           {/* <button onClick={this.test}> test </button> */}
         </header>
       </div>
